@@ -24,15 +24,16 @@ body {
 h2 {
   font-family: "Denk One", sans-serif;
   margin-top: 0.5em;
+  font-size: 1.5rem;
 }
 
 section {
   background-color: #e2e2e2;
 }
 
-img {
+.img-flex {
   width: 100%;
-  margin: 0;
+  display: block;
 }
 
 .body {
@@ -49,6 +50,21 @@ p {
   html {
     font-size: 110%;
     line-height: 1.4;
+    color: #fff;
+  }
+
+  section {
+    position: relative;
+    background-color: #fff;
+  }
+
+  .body {
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    border-radius: 8px;
+    right: 1.5rem;
+    bottom: 1rem;
+    max-width: 20em;
   }
 
 }
@@ -58,6 +74,10 @@ p {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .body {
+    width: 20em;
   }
 
 }
